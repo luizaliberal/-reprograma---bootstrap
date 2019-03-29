@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> Luiza Liberal Portfólio</title>
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/style.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- logo ou nome do projeto -->
+            <a class="navbar-brand" href="#">Luiza Liberal Portfólio</a>
+            <!-- botão acionador de menú responsivo ou hamburguinho -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- subnavegação -->
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <!-- itens do menu -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- cada link menu -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <!-- cada link menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <!-- cada link menu -->
+                    <!-- começa o menu dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- opções do menu dropdown -->
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        </div>
+                    </li>
+                    <!-- cada link menu desabilitado
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Desativado</a>
+                </li> -->
+                </ul>
+                <!-- barra de search -->
+                <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form> -->
+            </div>
+        </nav>
+    </header>
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/car-01.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/car-02.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/car-03.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h1 class="display-4 text-center">Sobre mim</h1>
+            <div class="text-center">
+                <img src="assets/002.jpg" class="rounded" alt="imagem da Bárbara, dona do Portfólio">
+            </div>
+
+            <p class="text-justify">Programadora front-end e designer, profundamente apaixonada por tecnologia. Migrei
+                do
+                design gráfico para a área de desenvolvimento de uma forma muito natural, por a programação complementar
+                meus conhecimentos em UX/UI. Em 2018 iniciei o curso de desenvolvimento front-end na Reprograma, um
+                bootcamp tecnológico imersivo de tempo integral em São Paulo, onde fui uma das 30 alunas selecionadas
+                entre mais de 300 inscritas.
+                Estou há mais de 10 anos envolvida em projetos sociais, acredito na tecnologia e no design como uma
+                ferramenta poderosa para criar representações positivas, empoderadoras e transformar o mundo. Sou
+                entusiasta da cultura do-it-yourself (faça-você-mesma) e a aplico em diversas áreas de minha vida e do
+                meu aprendizado. Me interesso muito por projetos de educação inclusiva através da arte e da tecnologia.
+            </p>
+        </div>
+
+
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h1 class="display-4 text-center">Portfólio</h1>
+            <p class="text-justify">Trabalhos e projetos desenvolvidos durante a {Reprograma}, entre agosto e dezembro
+                de 2018. A reprograma tem a proposta de inserir mulheres na área da tecnologia e suas recolocações no
+                mercado de trabalho através de um bootcamp tecnológico, imersivo e em tempo integral. Durante 18 semanas
+                tivemos contato com o universo da programação, aprendendo diversas linguagens, frameworks, bibliotecas e
+                habilidades. Consta na grade de ensino UX, HTML5, CSS3, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY e REACT.JS.
+                Além do conteúdo teórico tivemos ao longo do curso diversos projetos práticos para desenvolver o que
+                aprendemos.</p>
+            <div class="row">
+                <!-- CARD 01 -->
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Cópia de card1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Senai Infocast</h5>
+                        <p class="card-text">Criação de uma nova homepage para o podcast da Escola de Informática do
+                            Senai-SP</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                            Leia mais
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- Título do modal -->
+                                        <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        <p class="text-justify">Trabalho em equipe que desenvolvemos a home page do
+                                            Senai
+                                            Infocast, para a Escola de Informática do Senai. Projeto tecnicamente
+                                            desafiador, pois o cliente demandava a elaboração de um site a partir de um
+                                            design complexo e moderno, levando em consideração os conceitos de Pixel
+                                            Perfect
+                                            e Responsividade Fluida. O grupo escolheu não utilizar bibliotecas externas
+                                            de
+                                            estilo e nem frameworks, para desenvolver do zero, utilizamos código em
+                                            HTML,
+                                            CSS, JavaScript para consumir a API utilizada pelo podcast e ao final do
+                                            projeto
+                                            subimos a aplicação no servidor do cliente.</p> <a
+                                            href="https://infocast-dev.azurewebsites.net/" target="blank">Visite
+                                            aqui</a>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                        <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- final do 1 card -->
+                </div>
+                <!-- CARD 02 -->
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Cópia de card2.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Signista</h5>
+                        <p class="card-text">CProjeto de conclusão de curso do bootcamp tecnológico {Reprogama}</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
+                            Leia mais
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- Título do modal -->
+                                        <h5 class="modal-title" id="modalExemplo2">Signista</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        <p class="text-justify">Projeto desenvolvido e apresentado como conclusão do
+                                            bootcamp {Reprograma}, criado em javascript vanilla o Signista sugere a
+                                            experiência da sinastria online. A organização dos dados das combinações de
+                                            signos é tratada através da função filter do ES6, retornando as diversas
+                                            possibilidades de match.</p>
+                                        <a href="https://signista.netlify.com/" target="blank">Visite aqui</a>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                        <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- final do 2 card -->
+                </div>
+                <!-- CARD 03 -->
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/Cópia de card3.jpeg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Know Your Band</h5>
+                        <p class="card-text">Projeto desenvolvido no módulo Javascript Avançado, trata-se de um buscador
+                            de
+                            informações sobre bandas.</p>
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">
+                            Leia mais
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog"
+                            aria-labelledby="modalExemplo3" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- Título do modal -->
+                                        <h5 class="modal-title" id="modalExemplo3">Know Your Band</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- corpo de texto do modal -->
+                                    <div class="modal-body">
+                                        <p class="text-justify">Utilizando a API MusicBrainz e a API Google Imagens,
+                                            criamos
+                                            um sistema de buscador de dados e fotos sobre bandas. Utilizando a
+                                            funcionalidade Promisses do JavaScript, fomos capazes de fazer requisições
+                                            assíncronas para as APIs e tratar o retorno dessa busca na tela.</p>
+                                    </div>
+                                    <!-- botões do modal -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Fechar</button>
+                                        <!-- <button type="button" class="btn btn-primary">Salvar mudanças</button> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- final do 3 card -->
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h1 class="display-4 text-center">Orçamento</h1>
+            <p class="text-justify">Faça conosco seu orçamento.</p>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nome</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome e sobrenome">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">E-mail</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="digite@seuemail.com.br">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Telefone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="(00) xxxxx-xxxx">
+                </div>
+                <div class="form-group"> <label for="exampleFormControlTextarea1">Mensagem</label> <textarea
+                        maxlength="50" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Fale conosco"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
